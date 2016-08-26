@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1147ABB1D6D7011002FE687 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = B1147ABA1D6D7011002FE687 /* placeholder.png */; };
+		B11F27BA1D6C5DD000DEE4D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B11F27B91D6C5DD000DEE4D5 /* main.m */; };
+		B11F27BD1D6C5DD000DEE4D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B11F27BC1D6C5DD000DEE4D5 /* AppDelegate.m */; };
+		B11F27C01D6C5DD000DEE4D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B11F27BF1D6C5DD000DEE4D5 /* ViewController.m */; };
+		B11F27C31D6C5DD000DEE4D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11F27C11D6C5DD000DEE4D5 /* Main.storyboard */; };
+		B11F27C51D6C5DD000DEE4D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B11F27C41D6C5DD000DEE4D5 /* Assets.xcassets */; };
+		B11F27C81D6C5DD000DEE4D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11F27C61D6C5DD000DEE4D5 /* LaunchScreen.storyboard */; };
+		B11F27D31D6C5DD000DEE4D5 /* ASImageScoringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B11F27D21D6C5DD000DEE4D5 /* ASImageScoringTests.m */; };
+		B11F27DE1D6C5DD000DEE4D5 /* ASImageScoringUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B11F27DD1D6C5DD000DEE4D5 /* ASImageScoringUITests.m */; };
+		B11F27EC1D6C783600DEE4D5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B11F27EB1D6C783600DEE4D5 /* QuartzCore.framework */; };
+		B11F27EE1D6C784100DEE4D5 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B11F27ED1D6C784100DEE4D5 /* CoreImage.framework */; };
+		B1E526E11D6EF2D4004B8490 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E526E01D6EF2D4004B8490 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B11F27CF1D6C5DD000DEE4D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B11F27AD1D6C5DD000DEE4D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B11F27B41D6C5DD000DEE4D5;
+			remoteInfo = ASImageScoring;
+		};
+		B11F27DA1D6C5DD000DEE4D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B11F27AD1D6C5DD000DEE4D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B11F27B41D6C5DD000DEE4D5;
+			remoteInfo = ASImageScoring;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1147ABA1D6D7011002FE687 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		B11F27B51D6C5DD000DEE4D5 /* HPFaceDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPFaceDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11F27B91D6C5DD000DEE4D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B11F27BB1D6C5DD000DEE4D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B11F27BC1D6C5DD000DEE4D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B11F27BE1D6C5DD000DEE4D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B11F27BF1D6C5DD000DEE4D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B11F27C21D6C5DD000DEE4D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B11F27C41D6C5DD000DEE4D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B11F27C71D6C5DD000DEE4D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B11F27C91D6C5DD000DEE4D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B11F27CE1D6C5DD000DEE4D5 /* HPFaceDetection.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPFaceDetection.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11F27D21D6C5DD000DEE4D5 /* ASImageScoringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASImageScoringTests.m; sourceTree = "<group>"; };
+		B11F27D41D6C5DD000DEE4D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B11F27D91D6C5DD000DEE4D5 /* HPFaceDetection.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPFaceDetection.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11F27DD1D6C5DD000DEE4D5 /* ASImageScoringUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASImageScoringUITests.m; sourceTree = "<group>"; };
+		B11F27DF1D6C5DD000DEE4D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B11F27EB1D6C783600DEE4D5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B11F27ED1D6C784100DEE4D5 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		B1E526E01D6EF2D4004B8490 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B11F27B21D6C5DD000DEE4D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E526E11D6EF2D4004B8490 /* CoreGraphics.framework in Frameworks */,
+				B11F27EE1D6C784100DEE4D5 /* CoreImage.framework in Frameworks */,
+				B11F27EC1D6C783600DEE4D5 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11F27CB1D6C5DD000DEE4D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11F27D61D6C5DD000DEE4D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B11F27AC1D6C5DD000DEE4D5 = {
+			isa = PBXGroup;
+			children = (
+				B1E526E01D6EF2D4004B8490 /* CoreGraphics.framework */,
+				B11F27ED1D6C784100DEE4D5 /* CoreImage.framework */,
+				B11F27EB1D6C783600DEE4D5 /* QuartzCore.framework */,
+				B11F27B71D6C5DD000DEE4D5 /* ASImageScoring */,
+				B11F27D11D6C5DD000DEE4D5 /* ASImageScoringTests */,
+				B11F27DC1D6C5DD000DEE4D5 /* ASImageScoringUITests */,
+				B11F27B61D6C5DD000DEE4D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B11F27B61D6C5DD000DEE4D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B11F27B51D6C5DD000DEE4D5 /* HPFaceDetection.app */,
+				B11F27CE1D6C5DD000DEE4D5 /* HPFaceDetection.xctest */,
+				B11F27D91D6C5DD000DEE4D5 /* HPFaceDetection.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B11F27B71D6C5DD000DEE4D5 /* ASImageScoring */ = {
+			isa = PBXGroup;
+			children = (
+				B1147ABA1D6D7011002FE687 /* placeholder.png */,
+				B11F27BB1D6C5DD000DEE4D5 /* AppDelegate.h */,
+				B11F27BC1D6C5DD000DEE4D5 /* AppDelegate.m */,
+				B11F27BE1D6C5DD000DEE4D5 /* ViewController.h */,
+				B11F27BF1D6C5DD000DEE4D5 /* ViewController.m */,
+				B11F27C11D6C5DD000DEE4D5 /* Main.storyboard */,
+				B11F27C41D6C5DD000DEE4D5 /* Assets.xcassets */,
+				B11F27C61D6C5DD000DEE4D5 /* LaunchScreen.storyboard */,
+				B11F27C91D6C5DD000DEE4D5 /* Info.plist */,
+				B11F27B81D6C5DD000DEE4D5 /* Supporting Files */,
+			);
+			path = ASImageScoring;
+			sourceTree = "<group>";
+		};
+		B11F27B81D6C5DD000DEE4D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B11F27B91D6C5DD000DEE4D5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B11F27D11D6C5DD000DEE4D5 /* ASImageScoringTests */ = {
+			isa = PBXGroup;
+			children = (
+				B11F27D21D6C5DD000DEE4D5 /* ASImageScoringTests.m */,
+				B11F27D41D6C5DD000DEE4D5 /* Info.plist */,
+			);
+			path = ASImageScoringTests;
+			sourceTree = "<group>";
+		};
+		B11F27DC1D6C5DD000DEE4D5 /* ASImageScoringUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B11F27DD1D6C5DD000DEE4D5 /* ASImageScoringUITests.m */,
+				B11F27DF1D6C5DD000DEE4D5 /* Info.plist */,
+			);
+			path = ASImageScoringUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B11F27B41D6C5DD000DEE4D5 /* HPFaceDetection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B11F27E21D6C5DD000DEE4D5 /* Build configuration list for PBXNativeTarget "HPFaceDetection" */;
+			buildPhases = (
+				B11F27B11D6C5DD000DEE4D5 /* Sources */,
+				B11F27B21D6C5DD000DEE4D5 /* Frameworks */,
+				B11F27B31D6C5DD000DEE4D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HPFaceDetection;
+			productName = ASImageScoring;
+			productReference = B11F27B51D6C5DD000DEE4D5 /* HPFaceDetection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B11F27CD1D6C5DD000DEE4D5 /* HPFaceDetectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B11F27E51D6C5DD000DEE4D5 /* Build configuration list for PBXNativeTarget "HPFaceDetectionTests" */;
+			buildPhases = (
+				B11F27CA1D6C5DD000DEE4D5 /* Sources */,
+				B11F27CB1D6C5DD000DEE4D5 /* Frameworks */,
+				B11F27CC1D6C5DD000DEE4D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B11F27D01D6C5DD000DEE4D5 /* PBXTargetDependency */,
+			);
+			name = HPFaceDetectionTests;
+			productName = ASImageScoringTests;
+			productReference = B11F27CE1D6C5DD000DEE4D5 /* HPFaceDetection.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B11F27D81D6C5DD000DEE4D5 /* HPFaceDetectionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B11F27E81D6C5DD000DEE4D5 /* Build configuration list for PBXNativeTarget "HPFaceDetectionUITests" */;
+			buildPhases = (
+				B11F27D51D6C5DD000DEE4D5 /* Sources */,
+				B11F27D61D6C5DD000DEE4D5 /* Frameworks */,
+				B11F27D71D6C5DD000DEE4D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B11F27DB1D6C5DD000DEE4D5 /* PBXTargetDependency */,
+			);
+			name = HPFaceDetectionUITests;
+			productName = ASImageScoringUITests;
+			productReference = B11F27D91D6C5DD000DEE4D5 /* HPFaceDetection.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B11F27AD1D6C5DD000DEE4D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ASPL;
+				TargetAttributes = {
+					B11F27B41D6C5DD000DEE4D5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8Z3NJ84MJU;
+					};
+					B11F27CD1D6C5DD000DEE4D5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B11F27B41D6C5DD000DEE4D5;
+					};
+					B11F27D81D6C5DD000DEE4D5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B11F27B41D6C5DD000DEE4D5;
+					};
+				};
+			};
+			buildConfigurationList = B11F27B01D6C5DD000DEE4D5 /* Build configuration list for PBXProject "HPFaceDetection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B11F27AC1D6C5DD000DEE4D5;
+			productRefGroup = B11F27B61D6C5DD000DEE4D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B11F27B41D6C5DD000DEE4D5 /* HPFaceDetection */,
+				B11F27CD1D6C5DD000DEE4D5 /* HPFaceDetectionTests */,
+				B11F27D81D6C5DD000DEE4D5 /* HPFaceDetectionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B11F27B31D6C5DD000DEE4D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1147ABB1D6D7011002FE687 /* placeholder.png in Resources */,
+				B11F27C81D6C5DD000DEE4D5 /* LaunchScreen.storyboard in Resources */,
+				B11F27C51D6C5DD000DEE4D5 /* Assets.xcassets in Resources */,
+				B11F27C31D6C5DD000DEE4D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11F27CC1D6C5DD000DEE4D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11F27D71D6C5DD000DEE4D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B11F27B11D6C5DD000DEE4D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B11F27C01D6C5DD000DEE4D5 /* ViewController.m in Sources */,
+				B11F27BD1D6C5DD000DEE4D5 /* AppDelegate.m in Sources */,
+				B11F27BA1D6C5DD000DEE4D5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11F27CA1D6C5DD000DEE4D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B11F27D31D6C5DD000DEE4D5 /* ASImageScoringTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11F27D51D6C5DD000DEE4D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B11F27DE1D6C5DD000DEE4D5 /* ASImageScoringUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B11F27D01D6C5DD000DEE4D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B11F27B41D6C5DD000DEE4D5 /* HPFaceDetection */;
+			targetProxy = B11F27CF1D6C5DD000DEE4D5 /* PBXContainerItemProxy */;
+		};
+		B11F27DB1D6C5DD000DEE4D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B11F27B41D6C5DD000DEE4D5 /* HPFaceDetection */;
+			targetProxy = B11F27DA1D6C5DD000DEE4D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B11F27C11D6C5DD000DEE4D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B11F27C21D6C5DD000DEE4D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B11F27C61D6C5DD000DEE4D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B11F27C71D6C5DD000DEE4D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B11F27E01D6C5DD000DEE4D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B11F27E11D6C5DD000DEE4D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B11F27E31D6C5DD000DEE4D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ASImageScoring/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crmnext.HPFaceDetection;
+				PRODUCT_NAME = HPFaceDetection;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		B11F27E41D6C5DD000DEE4D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ASImageScoring/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crmnext.HPFaceDetection;
+				PRODUCT_NAME = HPFaceDetection;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		B11F27E61D6C5DD000DEE4D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ASImageScoringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crmnext.ASImageScoringTests;
+				PRODUCT_NAME = HPFaceDetection;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HPFaceDetection.app/HPFaceDetection";
+			};
+			name = Debug;
+		};
+		B11F27E71D6C5DD000DEE4D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ASImageScoringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crmnext.ASImageScoringTests;
+				PRODUCT_NAME = HPFaceDetection;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HPFaceDetection.app/HPFaceDetection";
+			};
+			name = Release;
+		};
+		B11F27E91D6C5DD000DEE4D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ASImageScoringUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crmnext.ASImageScoringUITests;
+				PRODUCT_NAME = HPFaceDetection;
+				TEST_TARGET_NAME = ASImageScoring;
+			};
+			name = Debug;
+		};
+		B11F27EA1D6C5DD000DEE4D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ASImageScoringUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crmnext.ASImageScoringUITests;
+				PRODUCT_NAME = HPFaceDetection;
+				TEST_TARGET_NAME = ASImageScoring;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B11F27B01D6C5DD000DEE4D5 /* Build configuration list for PBXProject "HPFaceDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11F27E01D6C5DD000DEE4D5 /* Debug */,
+				B11F27E11D6C5DD000DEE4D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B11F27E21D6C5DD000DEE4D5 /* Build configuration list for PBXNativeTarget "HPFaceDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11F27E31D6C5DD000DEE4D5 /* Debug */,
+				B11F27E41D6C5DD000DEE4D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B11F27E51D6C5DD000DEE4D5 /* Build configuration list for PBXNativeTarget "HPFaceDetectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11F27E61D6C5DD000DEE4D5 /* Debug */,
+				B11F27E71D6C5DD000DEE4D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B11F27E81D6C5DD000DEE4D5 /* Build configuration list for PBXNativeTarget "HPFaceDetectionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11F27E91D6C5DD000DEE4D5 /* Debug */,
+				B11F27EA1D6C5DD000DEE4D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B11F27AD1D6C5DD000DEE4D5 /* Project object */;
+}
